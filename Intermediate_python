@@ -35,9 +35,15 @@ plt.plot(gdb_cap,life_exp)
 # Display the plot
 plt.show()
 
+# Make a line bar, gdp_cap on the x-axis, life_exp on the y-axis
 plt.bar(gdb_cap,life_exp)
 # Display the plot
 plt.show()
 
+# Build Scatter plot
+plt.scatter(pop,life_exp)
+
+# Show plot
+plt.show()
 # ----------------------------------------------------------------------------------------------------------------------------------
 
