@@ -19,14 +19,9 @@ print ("use the roll method in list :",arr_1)
 
 
 
-# Remove the index from the list 
-list = [9,4,5,7,9]
-list.remove(4)
-print(list)
+import numpy as np
+np_2d = np.array([[2,3],[4,5]])    
+print(np_2d[-2,1])
 
-# Checkt the type.
-print(type(type(bool('1'))))
 
-# check the index of the list
-Check_data = list.index(7)
-print(Check_data)
+
