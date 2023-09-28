@@ -31,9 +31,13 @@ print(gdb_cap[-1])
 print(life_exp[-1])
 
 # Make a line plot, gdp_cap on the x-axis, life_exp on the y-axis
-x1 = np.linspace(0.0, 151)
-x2 = np.linspace(0.0, 10)
 plt.plot(gdb_cap,life_exp)
-
 # Display the plot
 plt.show()
+
+plt.bar(gdb_cap,life_exp)
+# Display the plot
+plt.show()
+
+# ----------------------------------------------------------------------------------------------------------------------------------
+
