@@ -30,3 +30,6 @@ print(type(type(bool('1'))))
 # check the index of the list
 Check_data = list.index(7)
 print(Check_data)
+
+print(False * bool(3.2))
+print(3*"hellow")
