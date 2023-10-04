@@ -61,7 +61,7 @@ europe = { 'spain': { 'capital':'madrid', 'population':46.77 },
 print(europe['france']['capital'])
 
 # Create sub-dictionary data
-data = {'capital': 'rome','po;ulation':59.83}
+data = {'capital': 'rome','population':59.83}
 
 # Add data to europe under key 'italy'
 europe['italy'] = data
