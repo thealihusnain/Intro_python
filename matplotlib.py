@@ -1,15 +1,12 @@
 # importing packages
 import numpy as np
-from matplotlib.pyplot import *
+import pandas as pd
+import matplotlib.pyplot as plt
+# load data from the local system
+df = pd.read_csv(r'C:\Users\CNS\Documents\working_data\company_sales_data.csv')
 
-# create data
-x = np.linspace(1, 50, 50)
-np.random.seed(1)
-y = np.random.randint(0, 20, 50)
+Total_units=df['total_units']
+Total_profit = df['total_profit']
 
-# plot graph
-plt.plot(x, y)
-
-# add legend
-plt.legend(['Legend'])
+plt.plot(Total_profit,Total_units)
 plt.show()
